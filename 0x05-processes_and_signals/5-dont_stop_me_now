@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
-# Kills the 4-to_infinity_and_beyond process
+# This script displays 'To infinity and beyond' indefinitely
+# Requirement: In between each iteration of the loop, add a sleep 2
 
-kill "$(pgrep -f 4-to_infinity_and_beyond)"
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
