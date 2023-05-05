@@ -1,1 +1,1 @@
-Regular expressions tasks
+Tasks od regx
